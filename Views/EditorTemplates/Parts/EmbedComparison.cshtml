@@ -1,0 +1,38 @@
+﻿@model EmbedComparison.Models.EmbedComparisonPart
+
+<fieldset>
+  <legend>Embed Comparison Fields</legend>
+            
+  <div class="editor-label">
+    @Html.LabelFor(model => model.EmbedKey)
+  </div>
+  <div class="editor-field">
+    @Html.TextBoxFor(model => model.EmbedKey)
+    @Html.ValidationMessageFor(model => model.EmbedKey)
+  </div>
+            
+  <div class="editor-label">
+    @Html.LabelFor(model => model.Guid)
+  </div>
+  <div class="editor-field">
+    @Html.TextBoxFor(model => model.Guid)
+    @Html.ValidationMessageFor(model => model.Guid)
+  </div>
+
+  <div class="editor-label">
+    @Html.LabelFor(model => model.FrameWidth)
+  </div>
+  <div class="editor-field">
+    @Html.TextBoxFor(model => model.FrameWidth)
+    @Html.ValidationMessageFor(model => model.FrameWidth)
+  </div>
+
+  <div class="editor-label">
+    @Html.LabelFor(model => model.FrameHeight)
+  </div>
+  <div class="editor-field">
+    @Html.TextBoxFor(model => model.FrameHeight)
+    @Html.ValidationMessageFor(model => model.FrameHeight)
+  </div>
+            
+</fieldset>

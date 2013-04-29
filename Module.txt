@@ -1,0 +1,8 @@
+Name: DocumentComparison
+AntiForgery: enabled
+Author: Aleksey Permyakov
+Website: http://www.groupdocs.com
+Version: 1.0.0
+OrchardVersion: 1.0.0
+Description:  Adds embed document comparison to compare items, based on EmbedKey and Compare Guid.
+Category: Groupdocs
